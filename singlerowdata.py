@@ -6,22 +6,6 @@ st.set_page_config(page_title="Page Title", layout="wide")
 
 
 
-hide_github_icon = """
-#GithubIcon {  visibility: hidden;}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
-
-st.markdown(
-    """
-    <style>
-    #GithubIcon {  visibility: hidden;}
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-    """,
-
-    unsafe_allow_html=True
-)
 
 
 st.markdown(
@@ -32,6 +16,9 @@ st.markdown(
     .viewerBadge_text__1JaDK {
         display: none;
     }
+    #GithubIcon {  visibility: hidden;}
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
@@ -90,3 +77,7 @@ else :
         #st.dataframe(dfm)
         st.data_editor(dfm,
              num_rows="dynamic", hide_index=True)
+
+
+
+
