@@ -4,11 +4,15 @@ import pandas as pd
 
 st.set_page_config(page_title="Page Title", layout="wide")
 
+
+
 hide_github_icon = """
 #GithubIcon {
   visibility: hidden;
 }
 """
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.markdown(
     """
     <style>
