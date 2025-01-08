@@ -5,9 +5,6 @@ import pandas as pd
 st.set_page_config(page_title="Page Title", layout="wide")
 
 
-
-
-
 st.markdown(
     """
     <style>
@@ -16,13 +13,13 @@ st.markdown(
     .viewerBadge_text__1JaDK {
         display: none;
     }
-    #GithubIcon {  visibility: hidden;}
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
 )
+
+
+
 
 
 
